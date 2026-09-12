@@ -1,3 +1,7 @@
 PyGithub==2.10.0
 python-dotenv==1.2.3
 langchain-mcp-adapters==0.3.2
+fastmcp==4.0.3
+fastmcp-slim==4.0.3
+mcp==2.2.0
+mcp-types==2.2.0
