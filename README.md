@@ -60,7 +60,6 @@ By default this starts the server using the **streamable-http** transport, makin
 | `list_user_repositories` | Lists all repos for the authenticated user | none | `list[str]` of `owner/repo-name` |
 | `get_git_repo` | Fetches all `.py`/`.ipynb` files from a repo's root | `repo_link: str` (e.g. `https://github.com/owner/repo`) | `dict` of `{filename: file_content}` |
 
-## 🔌 Connecting a Client
 
 Once running, point any MCP-compatible client (e.g. Claude, or a custom FastMCP client) to the server's HTTP endpoint to start calling `list_user_repositories` and `get_git_repo` remotely.
 
