@@ -2,7 +2,7 @@ import os
 from github import Github, Auth
 from dotenv import load_dotenv
 load_dotenv()
-from mcp.server.fastmcp import FastMCP
+from fastmcp import FastMCP
 
 #intialize server
 mcp = FastMCP('GITHUB')
@@ -33,6 +33,6 @@ def get_git_repo(repo_link :str) ->dict:
 if __name__ == "__main__":
     # Runs the server using standard input/output (stdio)
     # mcp.run(transport="stdio")  #for local
-    mcp.run(transport="http", host="0.0.0.0", port=8000) # remote
+    mcp.run(transport="streamable-http", host="0.0.0.0", port=8000) # remote
 
 
