@@ -63,6 +63,3 @@ By default this starts the server using the **streamable-http** transport, makin
 
 Once running, point any MCP-compatible client (e.g. Claude, or a custom FastMCP client) to the server's HTTP endpoint to start calling `list_user_repositories` and `get_git_repo` remotely.
 
-## 📄 License
-
-Add a license of your choice (e.g. MIT) here.
