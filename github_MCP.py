@@ -51,6 +51,6 @@ def list_user_repositories() -> list[str]:
 if __name__ == "__main__":
     # Runs the server using standard input/output (stdio)
     # mcp.run(transport="stdio")  #for local
-    mcp.run(transport="streamable-http", host="0.0.0.0", port=8000) # remote
+    mcp.run(transport="streamable-http") # remote
 
 
